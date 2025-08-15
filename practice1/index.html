@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問合せフォーム</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="title_wrap">
+      <h1>お問合せフォーム</h1>
+    </div>
+    <div class="form_wrap">
+      <form method="post" action="mail_confirm.php">
+        <div class="input_area">
+          <label>名前<br>
+            <input type="text" name="name" size="35">
+          </label>
+        </div>
+        <div class="input_area">
+          <label>メールアドレス<br>
+            <input type="mail" name="mail" size="35">
+          </label>
+        </div>
+        <div class="input_area">
+          <label>年齢</label>
+          <br>
+          <select id="dropdown" name="age">
+            <option>選択してください</option>
+          </select>
+        </div>
+        <div class="input_area">
+          <label>コメント<br>
+            <textarea name="comments" cols="35" rows="7"></textarea>
+          </label>
+        </div>
+        <div class="input_area">
+          <input class="submit" type="submit" value="送信する">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

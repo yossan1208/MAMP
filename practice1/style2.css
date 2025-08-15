@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", "meiryo", "sans-serif";
+}
+
+h1{
+  margin: 30px auto 20px auto;
+  border-left: 4px solid red;
+  background-color: #f1f1f1;
+  padding: 5px 0 5px 15px;
+  width: 500px;
+  font-size: 20px;
+}
+
+.confirm{
+  margin: 0 auto;
+  background-color: #fbfbfb;
+  border: 3px solid #ebebeb;
+  border-radius: 10px;
+  width: 450px;
+  padding: 20px 20px 60px 20px;
+}
+
+form{
+  float: left;
+  margin-right: 15px;
+}
+
+.button1{
+  border: 1px solid lightgray;
+  padding: 4px 10px;
+  color: white;
+  background-color: #bfbfbf;
+  border-radius: 5px;
+  border-bottom: 2px solid gray;
+}
+
+.button2{
+  border: 1px solid lightgray;
+  padding: 4px 10px;
+  color: white;
+  background-color: darkorange;
+  border-radius: 5px;
+  border-bottom: 2px solid #E08600;
+}

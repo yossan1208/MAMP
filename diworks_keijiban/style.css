@@ -1,0 +1,184 @@
+body {
+  position: relative;
+  padding-bottom: 40px;
+  min-height: 100vh;
+  box-sizing: border-box;
+    font-family: "Hiragino Kaku Gothic ProN", "meiryo", "sans-serif";
+}
+
+ul{
+  list-style: none;
+}
+
+
+/* header
+=================================== */
+.title-img {
+  width: 300px;
+}
+.menu-bar {
+  background-color: black;
+  width: 100%;
+  height: 40px;
+}
+.nav-ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav-li {
+  color: white;
+  font-size: 20px;
+  margin-right: 30px;
+  font-weight:lighter;
+}
+
+/* main
+================================== */
+main {
+  display: flex;
+}
+
+/* left */
+.left {
+  float: left;
+  width: 75%;
+  /* border-top: 5px solid blue;
+  border-right: 5px solid blue;
+  border-bottom: 5px solid blue; */
+}
+h1 {
+  display: inline-block;
+  font-weight: 900;
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+  margin-left: 20px;
+}
+.main-image {
+  width: 100%;
+  object-fit: cover;
+}
+.main-text {
+  font-size: 20px;
+}
+
+/* article */
+.article-text {
+  font-size: 20px;
+}
+.article-gray-box {
+  background-color: lightgray;
+  padding: 40px 0;
+  margin-bottom: 20px;
+}
+.box-upper,
+.box-lower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-lower {
+  margin-top: 20px;
+}
+.img-box {
+  margin-left: 15px;
+}
+.article-img {
+  width: 250px;
+}
+
+/* side bar */
+.right {
+  margin-left: 20px;
+  float: right;
+  width: 25%;
+  /* border-top: 5px solid red;
+  border-bottom: 5px solid red;
+  border-left: 5px solid red; */
+}
+.article-list {
+  width: 90%;
+  margin-left: 5px;
+}
+h2 {
+  border-bottom: 3px solid darkgray;
+}
+.side-bar-ul {
+  margin-top: 20px;
+}
+
+
+
+/* footer
+=================================== */
+footer {
+  clear: both;
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+
+}
+.copyright-text {
+  color: white;
+}
+
+
+/* 掲示板フォーム */
+.form-wrap {
+  margin: 20px 0;
+  background-color: #fbfbfb;
+  border: 3px solid #ebebeb;
+  padding: 10px;
+  border-radius: 5px;
+}
+.form-title { 
+  border-left: 5px solid red;
+  margin-left: 15px;
+}
+.form-h2 {
+  border-bottom: none;
+  margin-left: 10px;
+}
+.form-area {
+  padding: 15px;
+}
+.text,
+textarea {
+  border: 1px solid lightgray;
+  padding: 5px;
+  color: #999;
+  background: #fff;
+}
+.submit {
+  border: 1px solid lightgray;
+  padding: 4px 10px;
+  color: white;
+  background-color: #bfbfbf;
+  border-radius: 5px;
+  border-bottom: 2px solid gray;
+}
+
+/* 投稿記事 */
+.post-wrap {
+  background-color: #fbfbfb;
+  border: 3px solid #ebebeb;
+  padding: 10px;
+  border-radius: 5px;
+}
+.post-title {
+  margin-left: 10px;
+}
+.post-title h3 {
+  border-bottom: 3px solid #ebebeb;
+}
+.post-textarea {
+  margin-left: 10px;
+}
+.writer {
+  font-size: small;
+}
