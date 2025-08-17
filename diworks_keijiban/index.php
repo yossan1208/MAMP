@@ -1,5 +1,5 @@
 <?php
-
+// コミットのテスト
 mb_internal_encoding("utf-8");
 
 $errors = [];
